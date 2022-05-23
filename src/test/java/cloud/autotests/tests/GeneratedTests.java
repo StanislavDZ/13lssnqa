@@ -103,7 +103,7 @@ public class GeneratedTests extends TestBase {
         });
 
         step("Проверяем Проверяем правильность написания заголовка Вакансии", () -> {
-            $("[class=text--h1]").shouldHave(text("Вакансии"));
+            $("[class=semibold-56]").shouldHave(text("Вакансии"));
         });
     }
 
@@ -117,7 +117,7 @@ public class GeneratedTests extends TestBase {
         });
 
         step("Проверяем Проверяем правильность написания заголовка О нас", () -> {
-            $("[class=text--h1]").shouldHave(text("О нас"));
+            $("[class=semibold-56]").shouldHave(text("О нас"));
         });
     }
 
@@ -131,7 +131,7 @@ public class GeneratedTests extends TestBase {
         });
 
         step("Проверяем Проверяем правильность написания заголовка Вакансии", () -> {
-            $("[class=text--h1]").shouldHave(text("Volná místa"));
+            $("[class=semibold-56]").shouldHave(text("Volná místa"));
         });
     }
 
@@ -145,7 +145,7 @@ public class GeneratedTests extends TestBase {
         });
 
         step("Проверяем Проверяем правильность написания заголовка О нас", () -> {
-            $("[class=text--h1]").shouldHave(text("O nás"));
+            $("[class=semibold-56]").shouldHave(text("O nás"));
         });
 
 
@@ -161,7 +161,7 @@ public class GeneratedTests extends TestBase {
         });
 
         step("Проверяем Проверяем правильность написания заголовка Вакансии", () -> {
-            $("[class=text--h1]").shouldHave(text("Careers"));
+            $("[class=semibold-56]").shouldHave(text("Careers"));
         });
     }
 
@@ -175,7 +175,7 @@ public class GeneratedTests extends TestBase {
         });
 
         step("Проверяем Проверяем правильность написания заголовка О нас", () -> {
-            $("[class=text--h1]").shouldHave(text("About us"));
+            $("[class=semibold-56]").shouldHave(text("About us"));
         });
     }
 

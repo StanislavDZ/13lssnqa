@@ -3,8 +3,8 @@
 
 ## :see_no_evil: Содержание:
 
-- [Реализованные проверки](#earth_africa-Реализованные-проверки)
-- [Allure отчет](#earth_africa-Allure-отчет)
+- [Реализованные проверки](#eye_speech_bubble-Реализованные-проверки)
+- [Allure отчет](#Allure report-Allure-отчет)
 - [Видео примеры прохождения тестов](#earth_africa-Примеры-видео-о-прохождении-тестов)
 - [Сборка в Jenkins](#earth_africa-Jenkins-job)
 - [Запуск из терминала](#earth_africa-Запуск-тестов-из-терминала)
@@ -53,6 +53,11 @@
 - remoteDriverUrl (логин, пароль и адрес удаленного сервера selenoid или grid)
 - videoStorage (адрес, по которому можно получить видео)
 - threads (количество потоков)
+
+<p align="center">
+<img title="Параметры сборки в Jenkins" src="images/Jenkins_sbr.png">
+</p>
+
 
 ## :speak_no_evil: Запуск тестов из терминала
 
@@ -122,3 +127,4 @@ test
 <a href="https://github.com/allure-framework/allure2"><img src="images/Allure_Report.svg" width="50" height="50"  alt="Allure"/></a>
 <a href="https://www.jenkins.io/"><img src="images/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>
 </p>
+
